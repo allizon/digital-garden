@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Digital Garden`,
+    title: `Alligarden`,
     description: ``,
     author: `Axxxxxx Holt`,
     siteUrl: `https://allizon.github.io/`,

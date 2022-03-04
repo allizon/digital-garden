@@ -34,7 +34,10 @@ const Layout = ({ children }) => {
           padding: `0 1.0875rem 1.45rem`,
         }}
       >
-        <main>{children}</main>
+        <main className="flex space-x-4">
+          <section className="w-48 bg-blue-200 p-4">sidebar</section>
+          <section className="flex-auto p-4">{children}</section>
+        </main>
         <footer
           style={{
             marginTop: `2rem`,

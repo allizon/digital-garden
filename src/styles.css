@@ -11,4 +11,10 @@
     @apply pt-8;
     @apply text-xl;
   }
+
+  a {
+    @apply text-purple-500;
+    @apply font-bold;
+    @apply underline decoration-dashed;
+  }
 }
