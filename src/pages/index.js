@@ -10,6 +10,8 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
 
+    <p>I guess this should be an introduction to Who I Am.</p>
+
     <ul className="list-disc mb-8">
       <li>Fave articles (blog posts, movie reviews, whatever)</li>
       <li>
@@ -18,8 +20,15 @@ const IndexPage = () => (
       <li>Artwork</li>
       <li>Tech things</li>
       <li>Stuff about processes</li>
-      <li>Colophon</li>
+      <li>
+        <Link to="/colophon">Colophon</Link>
+      </li>
     </ul>
+
+    <p>
+      Still lots of stuff that can be imported from{" "}
+      <code>~/code/allizone/_posts</code>.
+    </p>
 
     <p>
       Remember to try to lean on the gatsby and tailwind config files where

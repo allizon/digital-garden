@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-default",
+  "name": "Alligarden",
   "private": true,
-  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "description": "My public digital knowledge garden",
   "version": "0.1.0",
-  "author": "Kyle Mathews <mathews.kyle@gmail.com>",
+  "author": "Allison Holt <hey@alli.fyi>",
   "dependencies": {
     "@fontsource/roboto": "^4.5.3",
     "@fontsource/roboto-slab": "^4.5.4",
@@ -58,7 +58,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
-    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
+    "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "rm -rf public && mkdir public && postcss src/components/styles.css > public/styles.css && gatsby develop",
     "serve": "gatsby serve",
     "clean": "gatsby clean",
