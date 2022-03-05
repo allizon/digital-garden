@@ -9,6 +9,7 @@
     "@fontsource/roboto-slab": "^4.5.4",
     "@mdx-js/mdx": "v1",
     "@mdx-js/react": "v1",
+    "@netlify/plugin-gatsby": "^2.1.2",
     "autoprefixer": "^10.4.0",
     "gatsby": "^4",
     "gatsby-plugin-gatsby-cloud": "^4.1.0",
