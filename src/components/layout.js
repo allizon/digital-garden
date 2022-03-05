@@ -10,6 +10,7 @@ import PropTypes from "prop-types";
 import { useStaticQuery, graphql } from "gatsby";
 
 import Header from "./header";
+import Sidebar from "./sidebar";
 import "../styles.css";
 
 const Layout = ({ children }) => {
@@ -28,9 +29,7 @@ const Layout = ({ children }) => {
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
       <div className="max-w-4xl px-4 m-0 mx-auto">
         <main className="flex md:space-x-4">
-          <section className="hidden md:block md:w-48 bg-purple-200 p-4">
-            sidebar
-          </section>
+          <Sidebar />
           <section className="flex-auto p-4">{children}</section>
         </main>
         <footer

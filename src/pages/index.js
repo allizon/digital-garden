@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
 
-    <ul>
+    <ul className="list-disc mb-8">
       <li>Fave articles (blog posts, movie reviews, whatever)</li>
       <li>
         <Link to="/review-birds-of-prey">A sample MDX article</Link>
@@ -18,6 +18,7 @@ const IndexPage = () => (
       <li>Artwork</li>
       <li>Tech things</li>
       <li>Stuff about processes</li>
+      <li>Colophon</li>
     </ul>
 
     <p>
