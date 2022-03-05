@@ -1,22 +1,31 @@
-import * as React from "react"
-import { Link } from "gatsby"
+import * as React from "react";
+import { Link } from "gatsby";
 
-import Layout from "../components/layout"
-import Seo from "../components/seo"
+import Layout from "../components/layout";
+import Seo from "../components/seo";
 
-import "../styles.css"
+import "../styles.css";
 
 const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
 
+    <ul>
+      <li>Fave articles (blog posts, movie reviews, whatever)</li>
+      <li>Artwork</li>
+      <li>Tech things</li>
+      <li>Stuff about processes</li>
+    </ul>
+
     <p>
-      <Link to="/page-2/">Go to page 2</Link> <br />
-      <Link to="/using-typescript/">Go to "Using TypeScript"</Link> <br />
-      <Link to="/using-ssr">Go to "Using SSR"</Link> <br />
-      <Link to="/using-dsg">Go to "Using DSG"</Link>
+      Remember to try to lean on the gatsby and tailwind config files where
+      appropriate!
+    </p>
+
+    <p className="mt-8 pt-8 border-t-2">
+      <Link to="/using-typescript/">Go to Using TypeScript</Link> <br />
     </p>
   </Layout>
-)
+);
 
-export default IndexPage
+export default IndexPage;
