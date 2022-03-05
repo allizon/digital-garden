@@ -17,4 +17,8 @@
     @apply font-bold;
     @apply underline decoration-dashed;
   }
+
+  p {
+    @apply pb-4;
+  }
 }
