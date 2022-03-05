@@ -20,10 +20,14 @@
     "gatsby-plugin-react-helmet": "^5.1.0",
     "gatsby-plugin-sass": "^5.9.0",
     "gatsby-plugin-sharp": "^4.1.0",
+    "gatsby-remark-images": "^6.9.0",
+    "gatsby-remark-prismjs": "^6.9.0",
     "gatsby-source-filesystem": "^4.1.0",
+    "gatsby-transformer-remark": "^5.9.0",
     "gatsby-transformer-sharp": "^4.1.0",
     "postcss": "^8.3.11",
     "postcss-cli": "^9.0.2",
+    "prismjs": "^1.27.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
@@ -36,12 +40,15 @@
     "prettier": "^2.4.1"
   },
   "resolutions": {
+    "ansi-html": "https://registry.yarnpkg.com/ansi-html-community/-/ansi-html-community-0.0.8.tgz",
     "ansi-regex": "^5",
     "browserslist": "^4.16.5",
     "immer": "^9.0.6",
     "node-fetch": "^2.6.7",
     "nth-check": "^2.0.1",
+    "sanitize-html": "^2.3.1",
     "simple-get": "^3.1",
+    "trim": "^0.0.3",
     "ws": "^7.4.6"
   },
   "keywords": [

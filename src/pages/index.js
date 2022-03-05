@@ -12,6 +12,9 @@ const IndexPage = () => (
 
     <ul>
       <li>Fave articles (blog posts, movie reviews, whatever)</li>
+      <li>
+        <Link to="/review-birds-of-prey">A sample MDX article</Link>
+      </li>
       <li>Artwork</li>
       <li>Tech things</li>
       <li>Stuff about processes</li>
