@@ -3,7 +3,12 @@
 @tailwind utilities;
 
 @layer base {
+  body {
+    font-family: theme("fontFamily.body");
+  }
+
   h1 {
+    font-family: theme("fontFamily.display");
     @apply text-2xl;
   }
 

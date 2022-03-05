@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Kyle Mathews <mathews.kyle@gmail.com>",
   "dependencies": {
+    "@fontsource/roboto": "^4.5.3",
+    "@fontsource/roboto-slab": "^4.5.4",
     "@mdx-js/mdx": "v1",
     "@mdx-js/react": "v1",
     "autoprefixer": "^10.4.0",
