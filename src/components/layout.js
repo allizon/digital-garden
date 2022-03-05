@@ -27,15 +27,11 @@ const Layout = ({ children }) => {
   return (
     <>
       <Header siteTitle={data.site.siteMetadata?.title || `Title`} />
-      <div
-        style={{
-          margin: `0 auto`,
-          maxWidth: 960,
-          padding: `0 1.0875rem 1.45rem`,
-        }}
-      >
-        <main className="flex space-x-4">
-          <section className="w-48 bg-blue-200 p-4">sidebar</section>
+      <div className="max-w-4xl px-4 m-0 mx-auto">
+        <main className="flex md:space-x-4">
+          <section className="hidden md:block md:w-48 bg-purple-200 p-4">
+            sidebar
+          </section>
           <section className="flex-auto p-4">{children}</section>
         </main>
         <footer
