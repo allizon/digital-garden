@@ -13,6 +13,7 @@ module.exports = {
       gray: colors.slate,
       blue: colors.sky,
       purple: colors.violet,
+      yellow: colors.amber,
     },
     fontFamily: {
       sans: ["Fira Sans", "Roboto", "Avenir Next"],

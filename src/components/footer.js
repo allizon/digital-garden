@@ -11,9 +11,11 @@ const Footer = () => (
   <footer className="mt-8 bg-gray-900 text-white text-sm height-24 inset-x-0 bottom-0">
     <div className="max-w-4xl m-0 mx-auto py-8 px-6 flex">
       <div className="w-1/2">
-        © {new Date().getFullYear()} Allison Holt.
+        © {new Date().getFullYear()} Allison Holt.{" "}
+        <a href="mailto:hey@allizon.io">Email me.</a>
         <br />
-        Built with <a href="https://www.gatsbyjs.com">Gatsby</a>.
+        Built with <a href="https://www.gatsbyjs.com">Gatsby</a> and hosted on{" "}
+        <a href="https://www.netlify.com">Netlify</a>.
       </div>
       <div className="w-1/2 text-right">
         <StyledLink to="https://twitter.com/AllizonPrime">twitter</StyledLink>
