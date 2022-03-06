@@ -21,4 +21,5 @@ module.exports = {
       serif: ["Georgia"],
     },
   },
+  plugins: [require("@tailwindcss/typography")],
 };

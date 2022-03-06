@@ -31,7 +31,16 @@ const Layout = ({ children }) => {
       <Menu />
       <div className="max-w-4xl px-4 m-0 mx-auto">
         <main className="flex md:space-x-4">
-          <section className="content flex-auto p-4 md:text-xl leading-8 md:leading-10">
+          <section
+            className="content flex-auto p-4 
+                       prose md:prose-lg prose-invert 
+                       prose-a:text-purple-300 prose-a:font-bold
+                       prose-a:underline 
+                       prose-a:underline-offset-2 
+                       prose-a:decoration-2 
+                       prose-a:decoration-blue-200
+                       max-w-none text-white"
+          >
             {children}
           </section>
         </main>
