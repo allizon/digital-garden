@@ -4,10 +4,10 @@ import { Link } from "gatsby";
 import Layout from "../components/layout";
 import Seo from "../components/seo";
 
-const MovieStuff = () => (
+const Tech = () => (
   <Layout>
-    <h1>Movie Stuff</h1>
+    <h1>Tech</h1>
   </Layout>
 );
 
-export default MovieStuff;
+export default Tech;

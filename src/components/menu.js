@@ -11,9 +11,9 @@ const Menu = () => (
   <div className="py-1 mb-6">
     <div className="max-w-4xl m-0 mx-auto px-5">
       <StyledLink to="/about">About</StyledLink>
-      <StyledLink to="/tech-stuff">Tech</StyledLink>
-      <StyledLink to="/art-stuff">Art</StyledLink>
-      <StyledLink to="/movie-stuff">Writing</StyledLink>
+      <StyledLink to="/tech">Tech</StyledLink>
+      <StyledLink to="/art">Art</StyledLink>
+      <StyledLink to="/writing">Writing</StyledLink>
     </div>
   </div>
 );
