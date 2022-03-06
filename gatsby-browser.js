@@ -6,6 +6,8 @@
 
 import "@fontsource/roboto";
 import "@fontsource/roboto-slab";
+import "@fontsource/playfair-display";
+import "@fontsource/fira-sans";
 
 import "prismjs/themes/prism-solarizedlight.css";
 import "prismjs/plugins/line-numbers/prism-line-numbers.css";

@@ -15,9 +15,9 @@ module.exports = {
       purple: colors.violet,
     },
     fontFamily: {
-      sans: ["Roboto", "Avenir Next"],
-      body: ["Roboto"],
-      display: ["Roboto Slab"],
+      sans: ["Fira Sans", "Roboto", "Avenir Next"],
+      body: ["Fira Sans", "Roboto"],
+      display: ["Playfair Display", "Roboto Slab"],
       serif: ["Georgia"],
     },
   },

@@ -5,6 +5,8 @@
   "version": "0.1.0",
   "author": "Allison Holt <hey@alli.fyi>",
   "dependencies": {
+    "@fontsource/fira-sans": "^4.5.3",
+    "@fontsource/playfair-display": "^4.5.4",
     "@fontsource/roboto": "^4.5.3",
     "@fontsource/roboto-slab": "^4.5.4",
     "@mdx-js/mdx": "v1",
