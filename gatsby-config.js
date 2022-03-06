@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
-    title: `Alligarden`,
-    description: ``,
+    title: `allizon.io`,
+    description: `The digital knowledge garden and public home for web developer, graphic designer and all around rad lady Allison Holt.`,
     author: `Axxxxxx Holt`,
     siteUrl: `https://allizon.github.io/`,
   },
