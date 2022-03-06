@@ -12,6 +12,7 @@ import { useStaticQuery, graphql } from "gatsby";
 import Header from "./header";
 import Menu from "./menu";
 import Sidebar from "./sidebar";
+import Footer from "./footer";
 import "../styles.css";
 
 const Layout = ({ children }) => {
@@ -34,16 +35,8 @@ const Layout = ({ children }) => {
           <Sidebar />
           <section className="flex-auto p-4">{children}</section>
         </main>
-        <footer
-          style={{
-            marginTop: `2rem`,
-          }}
-        >
-          © {new Date().getFullYear()}, Built with
-          {` `}
-          <a href="https://www.gatsbyjs.com">Gatsby</a>
-        </footer>
       </div>
+      <Footer />
     </>
   );
 };
