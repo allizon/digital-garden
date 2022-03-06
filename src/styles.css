@@ -1,29 +1,33 @@
+/* @layer tailwind */
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-@layer base {
-  body {
-    font-family: theme("fontFamily.body");
-  }
+/* @layer base-layer */
+body {
+  font-family: theme("fontFamily.body");
+}
 
-  h1 {
-    font-family: theme("fontFamily.display");
-    @apply text-2xl;
-  }
+h1 {
+  font-family: theme("fontFamily.display");
+}
 
-  h2 {
-    @apply pt-8;
-    @apply text-xl;
-  }
+/* @layer theme-layer */
+h1 {
+  @apply text-4xl;
+}
 
-  a {
-    @apply text-purple-500;
-    @apply font-bold;
-    @apply underline decoration-dashed;
-  }
+h2 {
+  @apply pt-8;
+  @apply text-xl;
+}
 
-  p {
-    @apply pb-4;
-  }
+a {
+  @apply text-purple-500;
+  @apply font-bold;
+  @apply underline;
+}
+
+p {
+  @apply pb-4;
 }
