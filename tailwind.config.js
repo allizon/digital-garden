@@ -8,6 +8,12 @@ module.exports = {
     "./src/components/**/*.js",
   ],
   theme: {
+    colors: {
+      white: colors.white,
+      gray: colors.slate,
+      blue: colors.sky,
+      purple: colors.violet,
+    },
     fontFamily: {
       sans: ["Roboto", "Avenir Next"],
       body: ["Roboto"],

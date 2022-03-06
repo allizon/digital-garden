@@ -33,7 +33,9 @@ const Layout = ({ children }) => {
       <div className="max-w-4xl px-4 m-0 mx-auto">
         <main className="flex md:space-x-4">
           <Sidebar />
-          <section className="flex-auto p-4">{children}</section>
+          <section className="content flex-auto p-4 md:text-xl leading-8 md:leading-10">
+            {children}
+          </section>
         </main>
       </div>
       <Footer />
