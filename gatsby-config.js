@@ -78,7 +78,7 @@ module.exports = {
           "gatsby-remark-prismjs",
         ],
         defaultLayouts: {
-          default: require.resolve("./src/components/layout.js"),
+          default: require.resolve("./src/components/layout-mdx.js"),
         },
       },
     },
