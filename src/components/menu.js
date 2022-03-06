@@ -4,7 +4,7 @@ import { Link } from "gatsby";
 const Menu = () => (
   <div className="py-1 mb-6">
     <div className="max-w-4xl m-0 mx-auto px-5">
-      <Link to="/about">About</Link>
+      <Link to="/about" className="pr-3">About</Link>
       <Link to="/tech-stuff" className="pr-3">
         Tech Stuff
       </Link>

@@ -10,7 +10,7 @@ const IndexPage = () => (
   <Layout>
     <Seo title="Home" />
 
-    <p>I guess this should be an introduction to Who I Am.</p>
+    <p>I guess this should be an introduction to Who I Am. And mention that I'm creating this site out in the open</p>
 
     <ul className="list-disc mb-8">
       <li>Fave articles (blog posts, movie reviews, whatever)</li>
