@@ -2,8 +2,6 @@
 path: /2015-11-29-coming-out
 title: "Coming Out"
 date: 2015-11-29
-tags :
-  - Gender Stuff
 ---
 
 I'd like to start by apologizing to everyone up front for the fact that I've been even more socially absent and inept than usual this year (which I know is saying rather a lot). I've had a lot of chaos going on in my head, noise that dates back in one form or another to when I was four years old. I've faced a lot of ideas and emotions that were new to me and have had to re-conceptualize events from my past and my identity as a whole.
@@ -60,15 +58,15 @@ I'm sure all three kids will be embarrassed by me in public, but I also think th
 
 HAAAA HA HA HAAHA HAHA AHH AHAAHA AHHAAHAHH HAHAHA.
 
-![ha haaa ha ahah aha](http://i.giphy.com/10I5e2yNnaozOo.gif)
+![ha haaa ha ahah aha](https://i.giphy.com/10I5e2yNnaozOo.gif)
 
 _falls to the floor laughing_
 
-![haaha ha ahha hahah ahaha](http://i.giphy.com/KxufLEowgK7Xa.gif)
+![haaha ha ahha hahah ahaha](https://i.giphy.com/KxufLEowgK7Xa.gif)
 
 _can't breathe from laughing so hard_
 
-![aaha haha ahaha hhhahah](http://i.giphy.com/3X5C68GcAnI7m.gif)
+![aaha haha ahaha hhhahah](https://i.giphy.com/3X5C68GcAnI7m.gif)
 
 _is dead_
 
