@@ -14,9 +14,12 @@ const Header = ({ siteTitle }) => (
           </Link>
         </h1>
       </div>
-      <div className="w-1/2 place-self-end text-right">
+      <div className="hidden md:block md:w-1/2 md:place-self-end md:text-right">
         <Menu />
       </div>
+    </div>
+    <div className="md:hidden">
+      <Menu />
     </div>
   </header>
 );

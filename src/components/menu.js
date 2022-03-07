@@ -8,7 +8,7 @@ const StyledLink = ({ children, to }) => (
 );
 
 const Menu = () => (
-  <div className="py-1 mb-6">
+  <div className="py-1 md:mb-6">
     <div className="max-w-4xl m-0 mx-auto px-5">
       <StyledLink to="/about">About</StyledLink>
       <StyledLink to="/tech">Tech</StyledLink>
