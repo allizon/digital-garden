@@ -37,8 +37,6 @@ const Layout = ({ children }) => {
                        prose-a:underline-offset-2 
                        prose-a:decoration-2 
                        prose-a:decoration-blue-200
-                       prose-h2:mt-6 prose-h2:pt-6
-                       prose-h2:md:mt-6 prose-h2:md:pt-6
                        max-w-none text-white"
           >
             {children}
