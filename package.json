@@ -62,6 +62,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "dev": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md,css}\"",
     "start": "rm -rf public && mkdir public && postcss src/components/styles.css > public/styles.css && gatsby develop",
     "serve": "gatsby serve",
