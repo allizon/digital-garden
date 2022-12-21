@@ -39,3 +39,7 @@ p {
 .content ul {
   @apply list-disc px-8;
 }
+
+.testing {
+  color: red;
+}
